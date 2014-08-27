@@ -48,7 +48,7 @@ rvCache = function () {
 	    		socketRequests.put(socketId, {"url": "cmd:get_cached_files", "keepAlive": keepAlive});
 				workers.getCachedFiles();
 	        } else if (url) {
-		    	url = decodeURIComponent(url);
+		    	url = decodeURIComponent( url.replace(/\+/g, "%20") );
 	        	processRequest_GetVideo(socketId, url, keepAlive, range);
 	        } else {
 				log("Unrecognized request. Returning " + ws.HTTP_BAD_REQUEST_TEXT);
