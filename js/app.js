@@ -57,16 +57,6 @@ onload = function (e) {
 
     $rv.browser = document.querySelector('#viewer');
     
-
-    $rv.browser.addEventListener('newwindow', function(e) {
-    		console.log("[WebView.newwindow]");
-		e.preventDefault();
-          	console.log("webview newwindow event");	
-          	window.open(e.targetUrl, { 'bounds': {'width': 400,'height': 500} });
-          	//chrome.app.window.open("index.html", { 'bounds': {'width': 400,'height': 500} });
-	});
-
-    
     $rv.browser.addEventListener('exit', function(e) {
     	console.log("[WebView.exit] reason: " + e.reason);
 		if (e.reason === 'crash' || e.reason === 'crashed') {
