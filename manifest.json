@@ -1,11 +1,11 @@
 {
   "manifest_version": 2,
-  "name": "Rise Vision Digital Signage Demonstration",
+  "name": "Rise Vision Digital Signage Demo",
   "description": "Rise Vision - The Enterprise Digital Signage Platform - Everything you need to create amazing digital signage for free",
   "author":  {
  	"email": "support@risevision.com"
  	},
-  "version": "1.1.5",
+  "version": "1.1.7",
   "icons": {
 	"16": "icon_16.png",
 	"128": "icon_128.png"
