@@ -84,4 +84,4 @@ If you would like more information on developing applications for Rise Vision pl
 
 **Facilitator**
 
-[Muhammad Farooq](https://github.com/mfarooq2000 "Muhammad Farooq")
+[Alan Clayton](https://github.com/alanclayton "Alan Clayton")
